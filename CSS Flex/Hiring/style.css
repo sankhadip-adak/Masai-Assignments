@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+#parent{
+    height: 250px;
+    width: 80%;
+    background-color:rgb(246, 247, 255);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+ .child-box{
+    height: 200px;
+    width: 18%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+}
+.child-box > img{
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 400;
+    color: #6c6768;
+    margin-top: 10px;
+}
+.stats{
+    font-size: 24px;
+    font-weight: 800;
+    color: #6e71cc;
+    margin-top: 12px;
+}
+
+    
