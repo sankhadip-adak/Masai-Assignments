@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiggy</title>
+    <style>
+      .nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      }
+      .nav:nth-child(1) img{
+        width: 50px;
+      }
+      #link {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        align-items: center;
+      }
+      #link p{
+        font-size: 14px;
+        font-weight: bold;
+        color: rgb(94,144,218);
+      }
+       #link p:hover{
+        cursor: pointer;
+        color: rgb(247,117,33);
+       }
+
+      .nav :nth-child(3) button{
+        background-color: red;
+        padding: 6px 19px;
+        font-size: 18px;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        margin-top: 16px;
+      }
+      .nav :nth-child(3) button:hover{
+        cursor: pointer;
+      }
+      .top{
+        width: 100%;
+        background-color: rgb(24,26,41);
+      }
+      .top>div{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 5%;
+      }
+
+      .top img{
+        width: 100%;
+        padding: 50px 0;
+      }
+      .mid{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        margin-top: 20px;
+      }
+      .mid-box{
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      }
+      .image-section{
+        width: 100%;
+      }
+      .image-section img{
+        width: 100%;
+      }
+      .intro-section{
+        text-align: center;
+      }
+      .bottom {
+        width: 80%;
+        margin: auto;
+      }
+      #bottom-section{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+      }
+      #bottom-section div img{
+        width: 100%;
+        height: 100%;
+      }
+
+
+            /* Write all styles here  */
+      @media only screen and (max-width: 800px) {
+        /* Medium Screen  */
+        #link{
+          display: none;
+        }
+        .mid{
+          grid-template-columns: repeat(2,1fr);
+        }
+        
+      }
+
+      @media only screen and (max-width: 500px) {
+        /* Small Screen  */
+        #link{
+          display: none;
+        }
+        .top>div{
+          flex-direction: column;
+        }
+        .mid{
+          grid-template-columns: repeat(1,1fr);
+        }
+        #bottom-section{
+          display: flex;
+          flex-direction: column;
+        }
+
+        
+
+
+      }
+      
+    </style>
+  </head>
+  <body>
+
+    <!-- **navbar start here** -->
+
+    <div class="nav">
+      <div>
+        <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2023-03-02/logo_742606.png" alt="logo">
+      </div>
+      <div id="link">
+        <p>Search</p>
+        <p>Offers</p>
+        <p>Help</p>
+        <p>Cart</p>
+        <p>Profile</p>
+      </div>
+      <div>
+        <button>Signin</button>
+      </div>
+    </div>
+
+    <!-- **navbar end here** -->
+
+    <!-- **top section start here** -->
+    
+    <div class="top">
+      <div>
+      <div>
+        <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/pneknawbadtvceqzwiep" alt="">
+      </div>
+      <div>
+        <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/pneknawbadtvceqzwiep" alt="">
+      </div>
+      <div>
+        <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/pneknawbadtvceqzwiep" alt="">
+      </div>
+      <div>
+        <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/pneknawbadtvceqzwiep" alt="">
+      </div>
+      </div>
+    </div>
+
+        <!-- **top section end here** -->
+
+          <!-- **Mid section start here** -->
+
+    <div class="mid">
+      <!-- Create the mid section here  -->
+      <!-- Here will come 8 child items  -->
+      <div class="mid-box">
+        <div class="image-section">
+          <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bdcd233971b7c81bf77e1fa4471280eb" alt="">
+        </div>
+        <div class="intro-section">
+          <h2>KFC</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis aliquam d</p>
+          <p>$250</p>
+        </div>
+      </div>
+        <div class="mid-box">
+          <div class="image-section">
+            <img
+              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bdcd233971b7c81bf77e1fa4471280eb"
+              alt="">
+          </div>
+          <div class="intro-section">
+            <h2>KFC</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis aliquam d</p>
+            <p>$250</p>
+          </div>
+        </div>
+      <div class="mid-box">
+        <div class="image-section">
+          <img
+            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bdcd233971b7c81bf77e1fa4471280eb"
+            alt="">
+        </div>
+        <div class="intro-section">
+          <h2>KFC</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis aliquam d</p>
+          <p>$250</p>
+        </div>
+      </div>
+        <div class="mid-box">
+        <div class="image-section">
+          <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bdcd233971b7c81bf77e1fa4471280eb" alt="">
+        </div>
+        <div class="intro-section">
+          <h2>KFC</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis aliquam d</p>
+          <p>$250</p>
+        </div>
+      </div>  
+      <div class="mid-box">
+        <div class="image-section">
+          <img
+            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bdcd233971b7c81bf77e1fa4471280eb"
+            alt="">
+        </div>
+        <div class="intro-section">
+          <h2>KFC</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis aliquam d</p>
+          <p>$250</p>
+        </div>
+      </div>
+      <div class="mid-box">
+        <div class="image-section">
+          <img
+            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bdcd233971b7c81bf77e1fa4471280eb"
+            alt="">
+        </div>
+        <div class="intro-section">
+          <h2>KFC</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis aliquam d</p>
+          <p>$250</p>
+        </div>
+      </div>
+      <div class="mid-box">
+        <div class="image-section">
+          <img
+            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bdcd233971b7c81bf77e1fa4471280eb"
+            alt="">
+        </div>
+        <div class="intro-section">
+          <h2>KFC</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis aliquam d</p>
+          <p>$250</p>
+        </div>
+      </div>
+      <div class="mid-box">
+        <div class="image-section">
+          <img
+            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bdcd233971b7c81bf77e1fa4471280eb"
+            alt="">
+        </div>
+        <div class="intro-section">
+          <h2>KFC</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis aliquam d</p>
+          <p>$250</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- **Mid section end here** -->
+
+    <!-- **bottom section start here** -->
+
+    <div class="bottom">
+      <h1>Our picks for you</h1>
+      <div id="bottom-section">
+        <div>
+          <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Offers_yqoiuk" alt="">
+        </div>
+        <div>
+          <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Offers_yqoiuk" alt="">
+        </div>
+        <div>
+          <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Offers_yqoiuk" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- **bottom section end here** -->
+
+  </body>
+</html>
