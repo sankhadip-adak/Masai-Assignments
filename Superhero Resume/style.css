@@ -91,10 +91,10 @@ header{
 #extra-content-box  h1{
     text-align: center;
     color: black;
-    padding: 20px;
+    padding: 40px 0px;
 }
 #gallery {
-    background: linear-gradient(rgb(100, 85, 52), rgb(229, 33, 33));
+    background: linear-gradient(rgb(165, 147, 109), rgb(206, 109, 109));
 }
 #gallery p {
     font-size: 50px;
