@@ -10,6 +10,8 @@ https://65ac0fc470a827c78f649f13--jolly-eclair-ff64e9.netlify.app/
 https://65b017021f780d2bd4eaf593--flourishing-pegasus-173596.netlify.app/
 # 6.Responsive Masai Investors
 https://65b1755947b8fa469113b8ba--cool-rabanadas-e9664c.netlify.app/
+# 7. Responsive Superhero Resume
+https://65b677dab634206c0e35ab28--chimerical-kitsune-ea7cc5.netlify.app/
 
 
  
